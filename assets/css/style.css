@@ -2,6 +2,10 @@
 	width: 600px;
 }
 
+.modal-body > p {
+	margin-bottom: 0.6em;
+	font-size: 0.9em;
+}
 .close {
 	position: absolute;
 	right: 10px;
