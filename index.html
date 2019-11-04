@@ -72,11 +72,71 @@
 			</div>
 		</div>
 		<!-- Header  -->
-
+		<header>
+			<div class="conteiner-fluid">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h1>HIDDEN VILLAGE SHINOBI TOURNAMENT</h1>
+					</div>
+				</div>
+			</div>
+		</header>
 		<!-- Selection Window -->
+		<div class="conteiner-fluid">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h4>
+						<!-- Text will show "select your fighter" during selection phase, then "choose your opponent" during battle  -->
+					</h4>
+					<h5>Choose Wisely...</h5>
+				</div>
+				<div class="col-12">
+					<div id="charList">
+						<!-- Characters to choose from will be dynamically updated here. This window will serve for both the initial selection and the opponent selection later on. -->
+					</div>
+				</div>
+			</div>
+		</div>
 		<hr />
 		<!-- Battle Zone -->
+		<div class="conteiner-fluid">
+			<div class="row">
+				<div class="col-12 text-center">
+					<H2>ARENA</H2>
+				</div>
+			</div>
+			<div class="row">
+				<!-- This is the Battle Area -->
+				<div class="col-sm-12 col-md-4 col-lg-4 text-center">
+					<h2 id="userChar">Your Fighter</h2>
+					<div class="col-sm-12 col-md-12 col-lg-12 ">
+						<!-- When you choose your character this is where it is pushed to -->
+						<div id="yourCharacter">
+							<!-- This is where your character will be dynamically updated -->
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4 text-center">
+					<!-- This is the attack button -->
+					<button
+						class="waves-effect waves-light btn-danger btn-lg attackBtn text-center"
+						id="attackBtn"
+					>
+						Attack!
+					</button>
+				</div>
+				<div class="col-sm-12 col-md-4 col-md-4 text-center">
+					<h2>Your Opponent</h2>
+					<div class="col-sm-12 col-md-12 col-lg-12 ">
+						<!-- This is where your chosen enemy will be dynamically updated -->
+						<div id="yourEnemy"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!-- jedi card || attack button || enemy card  -->
+
 		<!-- Wins / Losses             Reset  -->
 
 		<!-- Scripts  -->
